@@ -1,1 +1,76 @@
+.topNavBar
+{
+	position: fixed;
+	padding-left: 60px;
+	padding-right: 60px;
+	height: 60px;
+	width: 100%;
+	background-color: grey;
+}
 
+.catPicture
+{
+	border-radius: 50%;
+	border: 1px solid black;
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+.topNavBar > ul
+{
+	display: inline-block;
+}
+
+.navText > li
+{
+	display: inline-block;
+}
+
+.navText > li::after
+{
+	content: " | ";
+}
+
+
+.containerDottedBox
+{
+	height: 300px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px green dotted;
+	margin-top: 50px;
+	position: relative;
+}
+
+main
+{
+	padding-top: 90px;
+	min-width: 1000px;
+}
+
+.dog, .cat
+{
+	position: absolute;
+	width: 150px;
+
+}
+.dog
+{
+	top: 150px;
+	left: 490px;
+}
+
+.cat
+{
+	bottom: 220px;
+	right: 500px;
+}
+
+html
+{
+	background: url(../images/outerspace_landscape.jpeg) no-repeat;
+	background-size: cover;
+}
